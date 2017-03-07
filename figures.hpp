@@ -13,9 +13,9 @@ using namespace std;
 
 class Coloriable {
     public:
-        Coloriable(char * coul);
+        Coloriable(const char * coul);
         char * getCouleur();
-        void setCouleur(char * coul);
+        void setCouleur(const char * coul);
 
     protected:
         char couleur[20];
@@ -66,8 +66,6 @@ class Carre : public Rectangle {
         Carre(int s);
         int getSide() const;
         void setside(int s);
-
-
 };
 
 class TriangleEquilateral : public Polygon {

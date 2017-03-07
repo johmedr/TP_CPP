@@ -5,7 +5,7 @@
 #include "figures.hpp"
 
 
-Coloriable::Coloriable(char *coul) {
+Coloriable::Coloriable(const char * coul) {
     strcpy(couleur, coul);
 }
 
@@ -13,7 +13,7 @@ char * Coloriable::getCouleur() {
     return couleur;
 }
 
-void Coloriable::setCouleur(char *coul) {
+void Coloriable::setCouleur(const char *coul) {
     strcpy(couleur, coul);
 }
 
