@@ -3,5 +3,5 @@ project(TP_C__)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp figures.hpp figures.cpp)
+set(SOURCE_FILES main.cpp figures.hpp figures.cpp file.hpp file.tpp)
 add_executable(TP_C__ ${SOURCE_FILES})
