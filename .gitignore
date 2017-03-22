@@ -1,2 +1,3 @@
-**/.idea
-./figures.o ./figures.rpo ./file.rpo ./main.o ./main.rpo
+.idea
+CMakeLists.txt
+./figures.o ./main.o
