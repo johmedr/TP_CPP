@@ -1,7 +1,7 @@
 .idea
 CMakeLists.txt
-./figures.o
-./figures.rpo
-./file.rpo
-./main.o
-./main.rpo
+figures.o
+figures.rpo
+file.rpo
+main.o
+main.rpo
