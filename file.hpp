@@ -14,7 +14,6 @@ class Cellule {
 
     public:
         Cellule(T *elem);
-
         Cellule(T *elem, Cellule<T> *next, Cellule<T> *prev);
 
     private:
